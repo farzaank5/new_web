@@ -1,0 +1,140 @@
+html {
+    scrollbar-width: 10px;
+    scrollbar-color: #777 #555;
+	scroll-behavior: smooth;
+} 
+:root {
+    --primaryColor: #00FFD4;
+} 
+* {
+    margin: 0;
+    padding: 0;
+    border:  none;
+}
+body{
+    font-family: Century Gothic;
+    background-color: var(--primaryColor);
+}
+/* --------------- Navbar ---------------- */
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(#00FFD452 0%, #33A6A3);
+    z-index: 1;
+}
+.navbar-center {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+.logo{
+    width: 90px;
+}
+.navigation-menu{
+    position: relative;
+	width: 500px;
+	display: flex;
+	padding: 0px 5px 0px 10px;
+	justify-content: space-between;
+	user-select: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation-menu .li{
+    text-decoration: none;
+}
+li, a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgb(0, 0, 0);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: relative;
+	width: 475px;
+	height: 21px;
+	text-align: center;
+    left: 25px;
+    top: 20px;
+}
+#Ellipse_4 {
+	fill: rgb(0, 0, 0);
+}
+.Ellipse_4 {
+	filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.161));
+    position: relative;
+    overflow: visible;
+    width: 8px;
+    height: 8px;
+    right: 448px;
+}
+.nav-icon {
+    width: 50px;
+}  
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+}
+.cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--primaryColor);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
+}
+/* --------------- body ---------------- */
+.body-display{
+    display: flex;
+}
+.slideimg{
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 125px;
+    left: 10px;
+}
+.bodyimg{
+    width: 100%;
+    height: 510px;
+    text-align: center;
+    padding: 10px;
+}
+.tagline{
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+    text-align: center;    
+}
+.contantbox{
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    margin: 100px,0,100px,0;
+}
+.box-contant{
+    text-align: center;
+
+    background: radial-gradient(#00FFD452 0%, #33A6A3);
+    border-radius: 15px;    
+}
